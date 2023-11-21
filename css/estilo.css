@@ -9,8 +9,16 @@ margin: 0;
 }
 #cuerpoContenido{
 width: 100%;
-height: 500px;
-border: 1px solid black;
+background-color: #D3EE9F;
+display: flex;
+padding-top: 50px;
+}
+#cuerpoImagen{
+    flex: 40%;
+
+}
+#cuerpoDetalle{
+    flex: 60%;
 }
 footer{
     width: 100%;
@@ -22,7 +30,12 @@ footer{
 
 }
 #cabeceraMenu{
-    flex: 70%
+    flex: 70%;
+    margin: 15px 20px 0 0;
+    text-align: right;
+    
+
+
 }
 #imagenNombreRedondo{
     width: 150px;
@@ -50,6 +63,7 @@ footer{
 ul li{
     text-decoration: none;
     display: inline;
+    border-right: solid 2px #550101;
 }
 ul li a{
     color:#550101;
@@ -61,4 +75,13 @@ ul li a{
 ul li a:hover{
 color:white;
 text-decoration: underline dashed;
+}
+#LogoInicio{
+    background-image: url("../img/Recurso\ 7.png");
+    padding: 2px 0 0 18px;
+    background-size: 18px;
+    background-repeat: no-repeat;
+
+
+
 }
