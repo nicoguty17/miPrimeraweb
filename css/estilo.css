@@ -76,12 +76,30 @@ ul li a:hover{
 color:white;
 text-decoration: underline dashed;
 }
-#LogoInicio{
+#logoInicio{
     background-image: url("../img/Recurso\ 7.png");
     padding: 2px 0 0 18px;
     background-size: 18px;
     background-repeat: no-repeat;
 
-
-
+}
+#bordeImagen{
+    background-color: #D46B68;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+}
+img{
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#datosDetalle{
+    text-align: justify;
+    padding: 40px;
 }
