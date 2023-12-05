@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/contacto.css">
     <title>Document</title>
 </head>
 <body>
@@ -28,25 +29,29 @@
     </div>
     <!--Aqui colocamos el cuerpo del index-->
 <div id="cuerpoContenido">
-    <div id="cuerpoImagen">
-        <div id="bordeImagen">   
-        <img src="/img/Recurso 1.png" height="400" width="480">
-    </div>
-    </div>
-    <div id="cuerpoDetalle">
-        <h1>Bienvenido</h1>
-        <div id="datosDetalle">
-            <p>¡Bienvenido a bordo! Nos alegra enormemente que hayas decidido unirte como nuestro nuevo cliente. Prepárate para disfrutar de una experiencia impecable que sentará las bases de una colaboración fructífera. Estamos ansiosos por comenzar esta emocionante travesía juntos.</p>
-        </div>
-        <div id="botones">
-            <div id="botonFavorito">
-                <div id="marcoFavorito" class="disenoBoton"> Mi Persona Favorita</div>
-                 </div>
-            <div id="botonUbicacion">
-                <div id="marcoUbicacion" class="disenoBoton">Mi ubicación</div>
-            </div>
-            
-        </div>
+    <div id="formularioDatos">
+        <fieldset>
+            <legend>Mis Datos</legend>
+            <form>
+                <label>Nombre</label>
+                <input type="text" placeholder="Ingrese su nombre"> 
+                <label>apellido</label>
+                <input type="text" placeholder="Ingrese su apellido">
+                <label>Edad</label>
+                <input type="number">
+                <select>
+                    <option value="cbba">Cochabamba</option>
+                    <option value="lpz">La Paz</option>
+                    <option value="scz">Santa Cruz</option>
+                    <option value="chuquisaca">Chuquisaca</option>
+                    <option value="trj">Tarija</option>
+                </select>
+                <label>Descripción</label>
+                <textarea></textarea>
+                <input type="button" value="INSERTAR">
+
+            </form>
+        </fieldset>
     </div>
 </div>
 <!--Aqui colocaremos el pie de la web-->
